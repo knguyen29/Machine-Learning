@@ -1,2 +1,2 @@
-This project analyzed real Virginia and Maryland Federal Contractors Analysis of Fiscal Year 2022 to understand the decision of choosing the new FBI Headquarters to Maryland for Equity and Inclusion.
-I used Gephi graphing tools and NetworkX library with Jupyter Notebook to perform the analyses.
+This project analyzed real data on Virginia and Maryland federal contractors for Fiscal Year 2022 to understand the decision to choose Maryland for the new FBI Headquarters. 
+The analysis focused on federal funding distribution and assessed whether the decision aligned with principles of equity and inclusion, using Gephi graphing tools and the NetworkX library in Jupyter Notebook.
