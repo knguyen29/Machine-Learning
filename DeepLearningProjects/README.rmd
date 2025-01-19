@@ -1,0 +1,1 @@
+This folder contains several deep learning notebooks that I created, covering a variety of tasks. These include image classification to identify animals such as cats, dogs, and horses, as well as natural language processing (NLP) projects, such as classifying emotions in Vietnamese text.
