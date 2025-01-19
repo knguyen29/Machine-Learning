@@ -1,1 +1,6 @@
-This folder contains several deep learning notebooks that I created, covering a variety of tasks. These include image classification to identify animals such as cats, dogs, and horses, as well as natural language processing (NLP) projects, such as classifying emotions in Vietnamese text.
+This folder contains several deep learning notebooks I created, showcasing a range of tasks. These include image classification to identify animals such as cats, dogs, and horses, as well as natural language processing (NLP) projects like classifying emotions in Vietnamese text. Additionally, the code demonstrates foundational implementations of machine learning algorithms using basic Python functions. These include:
+- Building Linear Regression models from scratch using Pseudo-Inverse and Gradient Descent.
+- Implementing the Perceptron Learning Algorithm (PLA) for basic classification tasks.
+- Developing a k-Nearest Neighbors (k-NN) algorithm from scratch to classify a given Letter Recognition dataset.
+- Constructing a Condensed k-NN algorithm using Hart's algorithm for more efficient k-NN classification.
+  These projects provide hands-on practice with core machine learning concepts and demonstrate algorithmic implementation from the ground up.
