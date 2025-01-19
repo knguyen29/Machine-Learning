@@ -1,6 +1,9 @@
-This folder contains several deep learning notebooks I created, showcasing a range of tasks. These include image classification to identify animals such as cats, dogs, and horses, as well as natural language processing (NLP) projects like classifying emotions in Vietnamese text. Additionally, the code demonstrates foundational implementations of machine learning algorithms using basic Python functions. These include:
-- Building Linear Regression models from scratch using Pseudo-Inverse and Gradient Descent.
-- Implementing the Perceptron Learning Algorithm (PLA) for basic classification tasks.
-- Developing a k-Nearest Neighbors (k-NN) algorithm from scratch to classify a given Letter Recognition dataset.
-- Constructing a Condensed k-NN algorithm using Hart's algorithm for more efficient k-NN classification.
-  These projects provide hands-on practice with core machine learning concepts and demonstrate algorithmic implementation from the ground up.
+This folder contains several deep learning notebooks I created, showcasing a variety of tasks and techniques. These include image classification projects, such as identifying animals (e.g., cats, dogs, and horses) or fashion items (e.g., shirts, shoes, trousers, and purses), using deep learning algorithms like CNNs, RNNs, and LSTMs. Additionally, the folder features a natural language processing (NLP) project leveraging transformer-based models to classify emotions in Vietnamese text.
+
+The code also demonstrates foundational implementations of key machine learning algorithms built entirely from scratch using basic Python functions. These include:
+
+Building Linear Regression models using Pseudo-Inverse and Gradient Descent methods.
+Implementing the Perceptron Learning Algorithm (PLA) for basic classification tasks.
+Developing a k-Nearest Neighbors (k-NN) algorithm to classify a given Letter Recognition dataset.
+Constructing a Condensed k-NN algorithm using Hart's algorithm for more efficient classification.
+These projects offer hands-on experience with essential machine learning concepts, showcasing both modern deep learning techniques and fundamental algorithmic implementations.
