@@ -1,1 +1,1 @@
-This folder contains several notebooks that demonstrate various NLP tasks, including text preprocessing with word clouds, text summarization, and named entity recognition.
+This folder contains several Jupyter notebooks that demonstrate various NLP tasks, including text preprocessing with word clouds, text summarization, and named entity recognition.
