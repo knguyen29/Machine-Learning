@@ -1,2 +1,54 @@
 This folder includes a Python program called decision-list.py that implements a decision list classifier to
-perform word sense disambiguation.  More detail in the Programming Assignment - WSD.pdf file.
+perform Word Sense Disambiguation (WSD).  More detail in the Programming Assignment - WSD.pdf file.
+
+
+The System comprises of 3 Python files: calculations.py, DecisionList_KN.py and scoreKN.py.
+- The first execution would get the answers by labeling the word 'line' from trained and untrained models.
+It needs 2 scripts: calculations.py and DecisionList_KN.py to be in the same folder with 
+the provided files:  line-train.xml and line-test.xml
+- The script predict the meaning of the word by using  ConditionalFreqDist 
+and Condition probability distribution with ELEProbDist with 10 bins.
+- The command to execute is:  
+$ python DecisionList_KN.py line-train.xml line-test.xml
+- After the execution, 2 txt files are created from trained and untrained models:  
+my_trained_answers.txt and my_untrained_answer.txt
+
+- Next step is to feed these 2 txt files and compare with the line-answers.txt file to calculate the metrics.
+Run this command:  
+$ python scoreKN.py my_untrained_answers.txt my_trained_answers.txt line-answers.txt
+
+- The script will calculate Accuracy score, Confusion matrix, Precision and Recall for each entities
+by the untrained and trained models and provide the output that look similar like this:
+
+'''
+We compare the Accuracy score for each untrained and trained model
+
+   my_untrained_answers Accuracy score: 42.857142857142854%
+
+   my_trained_answers Accuracy score: 84.92063492063492%
+
+Then we inspect further the trained mode to retrieve some metrics
+    Confusion matrix for my_trained_answers is
+col_0    phone  product
+row_0
+phone       59        6
+product     13       48
+
+    Precision score for each entity in the trained answers:  col_0
+Phone      0.819444
+Product    0.888889
+dtype: float64
+
+    Recall score for each entity in the trained answers:  row_0
+phone      0.907692
+product    0.786885
+dtype: float64
+'''
+
+REFERENCES: 
+Liao, D. (2022).  Lecture 7.2 Decision List.
+
+Molnar, C (2022). Interpretable Machine Learning.  Retrieved from: https://christophm.github.io/interpretable-ml-book/rules.html
+
+Joy, R & Madduri, S. (2019). Retrieved from: https://github.com/sainikhithamadduri/Wordsense-Disambiguation-/blob/master/decision-list.py
+
